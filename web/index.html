@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Themed Wordsearch</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <main>
+    <h1>Themed Wordsearch</h1>
+    <form id="controls">
+      <label>Theme
+        <select id="themeSelect"></select>
+      </label>
+      <label>Size
+        <input id="size" type="number" min="6" max="40" value="12">
+      </label>
+      <label>Age
+        <select id="ageSelect">
+          <option value="">(none)</option>
+          <option value="5-7">5-7 (easy)</option>
+          <option value="8-10">8-10 (medium)</option>
+          <option value="11-13">11-13 (hard)</option>
+          <option value="14+">14+ (challenging)</option>
+        </select>
+      </label>
+      <label>Custom words (comma separated)
+        <input id="custom" placeholder="cat,dog,fox">
+      </label>
+      <label style="align-self:center">
+        <input id="teacherMode" type="checkbox"> Teacher mode (no backwards)
+      </label>
+      <div class="buttons">
+        <button type="button" id="generate">Generate</button>
+        <button type="button" id="download">Download HTML</button>
+        <button type="button" id="print">Print</button>
+        <button type="button" id="toggleAnswers">Show Answers</button>
+        <button type="button" id="savePng">Save PNG</button>
+        <button type="button" id="saveWordsPng">Save Words PNG</button>
+      </div>
+    </form>
+
+    <section id="output">
+      <div id="gridWrap"></div>
+      <div id="wordListWrap"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

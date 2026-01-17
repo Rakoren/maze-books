@@ -1,0 +1,13 @@
+{
+  "themes": {
+    "animals": ["cat", "dog", "lion", "tiger", "elephant", "giraffe", "zebra", "monkey", "panda", "kangaroo"],
+    "fruits": ["apple", "banana", "orange", "mango", "grape", "pear", "peach", "kiwi", "lemon", "melon"],
+    "planets": ["mercury","venus","earth","mars","jupiter","saturn","uranus","neptune","pluto"]
+  },
+  "agePresets": {
+    "5-7": {"size":8, "teacher":true, "maxWords":6},
+    "8-10": {"size":12, "teacher":true, "maxWords":8},
+    "11-13": {"size":14, "teacher":false, "maxWords":10},
+    "14+": {"size":16, "teacher":false, "maxWords":12}
+  }
+}

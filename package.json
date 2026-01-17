@@ -1,0 +1,17 @@
+{
+  "name": "themed-wordsearch",
+  "version": "1.0.0",
+  "description": "Small CLI to generate themed wordsearch puzzles",
+  "main": "index.js",
+  "bin": {
+    "wordsearch": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "web": "node web-server.js"
+  },
+  "keywords": ["wordsearch","puzzle","cli"],
+  "author": "",
+  "license": "MIT"
+}
+
