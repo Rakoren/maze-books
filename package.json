@@ -2,13 +2,15 @@
   "name": "themed-wordsearch",
   "version": "1.0.0",
   "description": "Small CLI to generate themed wordsearch puzzles",
-  "main": "index.js",
+  "main": "electron.js",
   "bin": {
     "wordsearch": "index.js"
   },
   "scripts": {
     "start": "node index.js",
-    "web": "node web-server.js"
+    "web": "node web-server.js",
+    "electron": "npx electron .",
+    "package-win": "npx electron-packager . ThemedWordsearch --platform=win32 --arch=x64 --out=dist --overwrite"
   },
   "keywords": ["wordsearch","puzzle","cli"],
   "author": "",
