@@ -428,7 +428,7 @@
         throw new Error(`Theme load failed (${response.status})`);
       }
       const data = await response.json();
-      wordDatabase = data.wordDatabase || [];
+      wordDatabase = (data.wordDatabase || []).map(item => ensureCluesForItem(item));
       const themeSet = new Set();
 
       wordDatabase.forEach(entry => {
@@ -468,7 +468,10 @@
       .slice(0, maxWords)
       .map(e => ({
         word: e.word,
-        clue: e.clue || `${e.word.length} letters`
+        clue: e.clue,
+        clues: e.clues,
+        tags: Array.isArray(e.tags) ? e.tags.slice() : [],
+        level: e.level || 3
       }));
   }
 
@@ -479,81 +482,329 @@
     status.className = 'status ' + type;
   }
 
-  function buildEntries(wordList) {
+  function buildEntries(wordList, level) {
+    const allWords = wordList.map(item => normalizeWord(item.word || ''));
     const raw = wordList.map(item => ({
       answer: item.word,
-      clue: item.clue || `${(item.word || '').length} letters`
+      clue: buildClueForItem(item, level, allWords)
     }));
     return normalizeEntries(raw);
   }
 
-  function syncCellFillState(input) {
-    if (!input) return;
-    const td = input.closest('td');
+  function ensureCluesForItem(item) {
+    const normalized = { ...item };
+    const word = normalizeWord(normalized.word || normalized.answer || '');
+    if (!word) return normalized;
+    const length = word.length;
+    const tags = Array.isArray(normalized.tags) ? normalized.tags : [];
+    const tag = tags.length ? tags[0] : 'Theme';
+    const existingClues = normalized.clues && typeof normalized.clues === 'object' ? { ...normalized.clues } : {};
+    const legacy = String(normalized.clue || '').trim();
+
+    if (!existingClues.level3 && isValidClue(legacy, word, length)) {
+      existingClues.level3 = legacy;
+    }
+
+    ['level1', 'level2', 'level3', 'level4', 'level5'].forEach(levelKey => {
+      if (existingClues[levelKey] && isValidClue(existingClues[levelKey], word, length)) return;
+      const pool = getClueTemplates(tag, length, levelKey, word);
+      if (!pool.length) return;
+      const pick = getDeterministicIndex(`${word}-${levelKey}`, pool.length);
+      existingClues[levelKey] = pool[pick];
+    });
+
+    normalized.clues = existingClues;
+    return normalized;
+  }
+
+  function buildClueForItem(item, level, allWords) {
+    const word = normalizeWord(item.word || item.answer || '');
+    if (!word) return '';
+    const length = word.length;
+    const levelKey = `level${Math.min(5, Math.max(1, parseInt(level, 10) || 3))}`;
+    const existing = String(item.clue || '').trim();
+    const fromArray = item.clues && typeof item.clues === 'object' ? String(item.clues[levelKey] || '').trim() : '';
+
+    const candidates = [fromArray, existing].filter(Boolean);
+    for (const candidate of candidates) {
+      if (isValidClue(candidate, word, length)) {
+        return enforceUniqueClue(candidate, word, allWords);
+      }
+    }
+
+    const tags = Array.isArray(item.tags) ? item.tags : [];
+    const tag = tags.length ? tags[0] : 'Theme';
+    const templates = getClueTemplates(tag, length, levelKey, word);
+    const pick = getDeterministicIndex(word, templates.length);
+    const templated = templates[pick];
+    return enforceUniqueClue(templated, word, allWords);
+  }
+
+  function isGenericClue(clue, length) {
+    const text = clue.toLowerCase();
+    if (/\bword from\b/.test(text)) return true;
+    if (/\bterm\b/.test(text)) return true;
+    if (/\bletters\b/.test(text)) return true;
+    if (/\bcommon\b.*\bword\b/.test(text)) return true;
+    if (text === `${length} letters`) return true;
+    return false;
+  }
+
+  function getClueTemplates(tag, length) {
+    const lower = tag.toLowerCase();
+    const themed = {
+      animals: [
+        `Animal you might see on a farm (${length} letters)`,
+        `Creature from the wild (${length})`,
+        `A ${length}-letter animal`,
+        `Animal commonly seen in stories`,
+        `A ${length}-letter creature`
+      ],
+      fantasy: [
+        `Magical or mythical theme (${length})`,
+        `Fantasy-world item (${length} letters)`,
+        `Creature from a fantasy tale`,
+        `Storybook magic word (${length})`,
+        `Mythic or magical answer (${length})`
+      ],
+      weather: [
+        `Weather you can feel outside (${length})`,
+        `Sky condition (${length} letters)`,
+        `Outdoor forecast feature`,
+        `Type of storm or condition (${length})`,
+        `Weather you might see today`
+      ],
+      space: [
+        `Something found in space (${length})`,
+        `Night-sky object (${length} letters)`,
+        `Part of the solar system`,
+        `Space-related answer (${length})`,
+        `Celestial item (${length} letters)`
+      ],
+      food: [
+        `Something you can eat (${length})`,
+        `Common food item (${length} letters)`,
+        `A ${length}-letter food`,
+        `Goes on a plate (${length})`,
+        `Kitchen or meal word`
+      ],
+      vehicles: [
+        `Something you can ride in (${length})`,
+        `A way to travel (${length} letters)`,
+        `Vehicle with wheels (${length})`,
+        `Common ride (${length})`,
+        `Transport-related answer`
+      ],
+      ocean: [
+        `Found in the ocean (${length})`,
+        `Sea-related answer (${length})`,
+        `Ocean life or feature (${length})`,
+        `Something from the sea`,
+        `Marine word (${length})`
+      ]
+    };
+
+    if (themed[lower]) return themed[lower];
+
+    return [
+      `A ${length}-letter answer about ${lower}`,
+      `Related to ${lower}`,
+      `Something linked to ${lower}`,
+      `A ${length}-letter ${lower} answer`,
+      `Topic: ${tag}`
+    ];
+  }
+
+  function isGenericClue(clue, length) {
+    const text = clue.toLowerCase();
+    if (/\bword from\b/.test(text)) return true;
+    if (/\bterm\b/.test(text)) return true;
+    if (/\bletters\b/.test(text)) return true;
+    if (/\bcommon\b.*\bword\b/.test(text)) return true;
+    if (text === `${length} letters`) return true;
+    return false;
+  }
+
+  function isValidClue(clue, word, length) {
+    if (!clue) return false;
+    if (wordInClue(clue, word)) return false;
+    if (isGenericClue(clue, length)) return false;
+    if (countWords(clue) > 10) return false;
+    return true;
+  }
+
+  function enforceUniqueClue(clue, word, allWords) {
+    if (!clue) return clue;
+    const needsDisambiguation = allWords.filter(w => w.length === word.length).length > 1;
+    if (!needsDisambiguation) return clue;
+    if (!isGenericClue(clue, word.length)) return clue;
+    if (/starts with/i.test(clue)) return clue;
+    const add = `Starts with ${word[0]}.`;
+    return countWords(clue) <= 8 ? `${clue} ${add}` : add;
+  }
+
+  function wordInClue(clue, word) {
+    const cleanClue = normalizeWord(clue);
+    if (!cleanClue) return false;
+    if (cleanClue.includes(word)) return true;
+    if (word.endsWith('S') && cleanClue.includes(word.slice(0, -1))) return true;
+    if (word.endsWith('ES') && cleanClue.includes(word.slice(0, -2))) return true;
+    return false;
+  }
+
+  function normalizeWord(value) {
+    return String(value || '').toUpperCase().replace(/[^A-Z]/g, '');
+  }
+
+  function countWords(text) {
+    return String(text || '').trim().split(/\s+/).filter(Boolean).length;
+  }
+
+  function getClueTemplates(tag, length, levelKey, word) {
     if (!td || !td.classList.contains('letter')) return;
     if ((input.value || '').trim()) {
       td.classList.add('filled');
-    } else {
-      td.classList.remove('filled');
-    }
-  }
-
+        {
+          level1: `A farm animal. A is for ___.`,
+          level2: `An animal that can be a pet.`,
+          level3: `A type of animal.`,
+          level4: `An animal often seen in stories.`,
+          level5: `A common creature in folklore.`
+        },
+        {
+          level1: `A wild animal.`,
+          level2: `A creature that lives outdoors.`,
+          level3: `A kind of animal.`,
+          level4: `A wild creature often studied.`,
+          level5: `A creature of myth or nature.`
+        }
   function handleCellInput(event) {
     if (!currentPuzzle || currentPuzzle.showingAnswers) return;
-    const input = event.target;
-    const normalized = input.value.toUpperCase().replace(/[^A-Z]/g, '');
-    input.value = normalized.slice(-1);
-    syncCellFillState(input);
-    const cellId = input.dataset.cell;
+        {
+          level1: `A magic word.`,
+          level2: `Something from a fairy tale.`,
+          level3: `A fantasy story word.`,
+          level4: `A myth or legend item.`,
+          level5: `A mystical or arcane word.`
+        },
+        {
+          level1: `A magical creature.`,
+          level2: `A creature from a fantasy tale.`,
+          level3: `A mythical creature.`,
+          level4: `A legend creature.`,
+          level5: `A creature of lore.`
+        }
     if (!input.value) {
       delete currentPuzzle.userEntries[cellId];
-    } else {
-      currentPuzzle.userEntries[cellId] = input.value;
-    }
-    input.classList.remove('correct', 'incorrect');
-  }
-
-  function renderGrid() {
-    if (!currentPuzzle) return;
-
-    const gridDiv = document.getElementById('grid');
-    gridDiv.innerHTML = '';
-
-    const table = document.createElement('table');
-    table.className = 'grid crossword';
-    currentPuzzle.inputs = [];
-
-    const { grid, numbers } = currentPuzzle;
-
-    grid.forEach((row, r) => {
-      const tr = document.createElement('tr');
-      row.forEach((letter, c) => {
-        const td = document.createElement('td');
-        if (!letter) {
-          td.className = 'block';
-          tr.appendChild(td);
-          return;
+        {
+          level1: `A kind of weather.`,
+          level2: `Weather you can see outside.`,
+          level3: `A weather condition.`,
+          level4: `A forecast detail.`,
+          level5: `A meteorology term.`
+        },
+        {
+          level1: `The sky looks this way.`,
+          level2: `Sky condition.`,
+          level3: `A sky condition word.`,
+          level4: `A weather description.`,
+          level5: `A sky term.`
         }
 
-        td.className = 'letter';
+  function renderGrid() {
+        {
+          level1: `Something in space.`,
+          level2: `Something seen in the night sky.`,
+          level3: `A space object.`,
+          level4: `A solar system term.`,
+          level5: `A celestial object.`
+        },
+        {
+          level1: `A starry-sky thing.`,
+          level2: `A night-sky object.`,
+          level3: `A space-related word.`,
+          level4: `An astronomy word.`,
+          level5: `A cosmic term.`
+        }
+    const table = document.createElement('table');
+    table.className = 'grid crossword';
+        {
+          level1: `Something you can eat.`,
+          level2: `A food you might have.`,
+          level3: `A type of food.`,
+          level4: `A common meal item.`,
+          level5: `A culinary word.`
+        },
+        {
+          level1: `A yummy food.`,
+          level2: `A kitchen item to eat.`,
+          level3: `A food word.`,
+          level4: `A food term.`,
+          level5: `A gastronomy word.`
+        }
+      const tr = document.createElement('tr');
+      row.forEach((letter, c) => {
+        {
+          level1: `Something you can ride in.`,
+          level2: `A way to travel.`,
+          level3: `A type of vehicle.`,
+          level4: `A transport term.`,
+          level5: `A transit word.`
+        },
+        {
+          level1: `A ride you can take.`,
+          level2: `A vehicle you might see.`,
+          level3: `A transport word.`,
+          level4: `A travel term.`,
+          level5: `A mobility word.`
+        }
+        }
 
-        const num = numbers[r][c];
-        if (num) {
-          const numSpan = document.createElement('span');
+        {
+          level1: `Something from the sea.`,
+          level2: `A sea or ocean word.`,
+          level3: `An ocean-related word.`,
+          level4: `A marine term.`,
+          level5: `A nautical word.`
+        },
+        {
+          level1: `A sea creature or thing.`,
+          level2: `A thing found in the ocean.`,
+          level3: `A marine word.`,
+          level4: `A sea-related term.`,
+          level5: `An ocean term.`
+        }
           numSpan.className = 'num';
           numSpan.textContent = num;
           td.appendChild(numSpan);
-        }
+    const pool = themed[lower]
+      ? themed[lower].map(entry => entry[levelKey] || entry.level3)
+      : [
+          `A ${length}-letter ${lower} answer`,
+          `Related to ${lower}`,
+          `Something linked to ${lower}`,
+          `Topic: ${tag}`,
+          `A ${length}-letter word about ${lower}`
+        ];
 
-        const input = document.createElement('input');
-        input.type = 'text';
-        input.maxLength = 1;
-        input.dataset.answer = letter;
-        input.dataset.cell = `${r}-${c}`;
-        input.value = currentPuzzle.userEntries[input.dataset.cell] || '';
-        input.autocomplete = 'off';
-        input.addEventListener('input', handleCellInput);
-        input.addEventListener('focus', () => input.select());
+    const adjusted = pool.map(template => adjustGrammar(template, word));
+    return adjusted.filter(t => t && countWords(t) <= 10);
+  }
+
+  function adjustGrammar(text, word) {
+    if (!text) return text;
+    if (!isPlural(word)) return text;
+    return text
+      .replace(/\bA\b/g, 'Some')
+      .replace(/\ban\b/gi, 'some')
+      .replace(/\bis\b/gi, 'are')
+      .replace(/\bIt\b/gi, 'They')
+      .replace(/\bit\b/gi, 'they');
+  }
+
+  function isPlural(word) {
+    return word.length > 2 && word.endsWith('S') && !word.endsWith('SS');
+
         currentPuzzle.inputs.push(input);
         td.appendChild(input);
         syncCellFillState(input);
@@ -680,7 +931,7 @@
     setTimeout(() => {
       try {
         const wordList = generateWordList(theme, level, 25);
-        const entries = buildEntries(wordList);
+        const entries = buildEntries(wordList, level);
         if (entries.length === 0) {
           updateStatus('Not enough words for this theme/level.', 'error');
           return;

@@ -10,7 +10,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Farm storage"
+      "clue": "Farm storage",
+      "clues": {
+        "level3": "Farm storage",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "BEE",
@@ -19,7 +26,14 @@
         "Animals"
       ],
       "clue": "Honey maker",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Honey maker",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "CAT",
@@ -31,7 +45,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Purr-fect pet"
+      "clue": "Purr-fect pet",
+      "clues": {
+        "level3": "Purr-fect pet",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "COW",
@@ -43,7 +64,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Mooing milk giver"
+      "clue": "Mooing milk giver",
+      "clues": {
+        "level3": "Mooing milk giver",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "EGG",
@@ -61,7 +89,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Breakfast staple"
+      "clue": "Breakfast staple",
+      "clues": {
+        "level3": "Breakfast staple",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "HAY",
@@ -73,7 +108,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Farm bedding"
+      "clue": "Farm bedding",
+      "clues": {
+        "level3": "Farm bedding",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "HEN",
@@ -85,7 +127,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Egg-laying bird"
+      "clue": "Egg-laying bird",
+      "clues": {
+        "level3": "Egg-laying bird",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "OWL",
@@ -94,7 +143,14 @@
         "Animals"
       ],
       "clue": "Wise night bird",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Wise night bird",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "PIG",
@@ -106,7 +162,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Oinky farm animal"
+      "clue": "Oinky farm animal",
+      "clues": {
+        "level3": "Oinky farm animal",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "RABBIT",
@@ -114,7 +177,14 @@
       "tags": [
         "Animals"
       ],
-      "clue": "Hoppy hopper"
+      "clue": "Hoppy hopper",
+      "clues": {
+        "level3": "Hoppy hopper",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "BEAR",
@@ -122,7 +192,14 @@
       "tags": [
         "Animals"
       ],
-      "clue": "Hibernating mammal"
+      "clue": "Hibernating mammal",
+      "clues": {
+        "level3": "Hibernating mammal",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "BUTTERFLY",
@@ -131,7 +208,14 @@
         "Animals"
       ],
       "clue": "Colorful flyer",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Colorful flyer",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "CORN",
@@ -143,7 +227,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Yellow cob"
+      "clue": "Yellow cob",
+      "clues": {
+        "level3": "Yellow cob",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "DINOSAUR",
@@ -152,7 +243,14 @@
         "Animals"
       ],
       "clue": "Extinct creature",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Extinct creature",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "DUCK",
@@ -164,7 +262,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Quacking swimmer"
+      "clue": "Quacking swimmer",
+      "clues": {
+        "level3": "Quacking swimmer",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "FIELD",
@@ -176,7 +281,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Open farmland"
+      "clue": "Open farmland",
+      "clues": {
+        "level3": "Open farmland",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "FOX",
@@ -184,7 +296,14 @@
       "tags": [
         "Animals"
       ],
-      "clue": "Cunning red predator"
+      "clue": "Cunning red predator",
+      "clues": {
+        "level3": "Cunning red predator",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "GOAT",
@@ -196,7 +315,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Bearded climber"
+      "clue": "Bearded climber",
+      "clues": {
+        "level3": "Bearded climber",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "HORSE",
@@ -208,7 +334,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Galloping steed"
+      "clue": "Galloping steed",
+      "clues": {
+        "level3": "Galloping steed",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "MILK",
@@ -220,7 +353,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "White drink"
+      "clue": "White drink",
+      "clues": {
+        "level3": "White drink",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "PENGUIN",
@@ -229,7 +369,14 @@
         "Animals"
       ],
       "clue": "Tuxedoed bird",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Tuxedoed bird",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "SHEEP",
@@ -241,7 +388,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Woolly grazer"
+      "clue": "Woolly grazer",
+      "clues": {
+        "level3": "Woolly grazer",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "HARVEST",
@@ -253,7 +407,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Crop gathering"
+      "clue": "Crop gathering",
+      "clues": {
+        "level3": "Crop gathering",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "ORCHARD",
@@ -265,7 +426,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Fruit tree area"
+      "clue": "Fruit tree area",
+      "clues": {
+        "level3": "Fruit tree area",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "PASTURE",
@@ -277,7 +445,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Animal grazing land"
+      "clue": "Animal grazing land",
+      "clues": {
+        "level3": "Animal grazing land",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "ROOSTER",
@@ -289,7 +464,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Cock-a-doodle-doo bird"
+      "clue": "Cock-a-doodle-doo bird",
+      "clues": {
+        "level3": "Cock-a-doodle-doo bird",
+        "level1": "A farm animal. A is for ___.",
+        "level2": "A creature that lives outdoors.",
+        "level4": "A wild creature often studied.",
+        "level5": "A common creature in folklore."
+      }
     },
     {
       "word": "TRACTOR",
@@ -301,7 +483,14 @@
         "Food"
       ],
       "associations": [],
-      "clue": "Farm machine"
+      "clue": "Farm machine",
+      "clues": {
+        "level3": "Farm machine",
+        "level1": "A wild animal.",
+        "level2": "An animal that can be a pet.",
+        "level4": "An animal often seen in stories.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "ARM",
@@ -313,7 +502,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "A 3-letter word about body",
+        "level2": "A 3-letter body answer",
+        "level3": "Related to body",
+        "level4": "Something linked to body",
+        "level5": "Topic: Body"
+      }
     },
     {
       "word": "EAR",
@@ -325,7 +521,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Related to body",
+        "level2": "Something linked to body",
+        "level3": "Topic: Body",
+        "level4": "A 3-letter word about body",
+        "level5": "A 3-letter body answer"
+      }
     },
     {
       "word": "EYE",
@@ -337,7 +540,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 3-letter word about body",
+        "level4": "A 3-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "LEG",
@@ -349,7 +559,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Related to body",
+        "level2": "Something linked to body",
+        "level3": "Topic: Body",
+        "level4": "A 3-letter word about body",
+        "level5": "A 3-letter body answer"
+      }
     },
     {
       "word": "TOE",
@@ -361,7 +578,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 3-letter word about body",
+        "level4": "A 3-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "FOOT",
@@ -373,7 +597,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 4-letter word about body",
+        "level4": "A 4-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "HAIR",
@@ -385,7 +616,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 4-letter word about body",
+        "level4": "A 4-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "HAND",
@@ -397,7 +635,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Topic: Body",
+        "level2": "A 4-letter word about body",
+        "level3": "A 4-letter body answer",
+        "level4": "Related to body",
+        "level5": "Something linked to body"
+      }
     },
     {
       "word": "HEAD",
@@ -409,7 +654,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "A 4-letter word about body",
+        "level2": "A 4-letter body answer",
+        "level3": "Related to body",
+        "level4": "Something linked to body",
+        "level5": "Topic: Body"
+      }
     },
     {
       "word": "NOSE",
@@ -421,7 +673,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "A 4-letter word about body",
+        "level2": "A 4-letter body answer",
+        "level3": "Related to body",
+        "level4": "Something linked to body",
+        "level5": "Topic: Body"
+      }
     },
     {
       "word": "SKIN",
@@ -433,7 +692,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "A 4-letter word about body",
+        "level2": "A 4-letter body answer",
+        "level3": "Related to body",
+        "level4": "Something linked to body",
+        "level5": "Topic: Body"
+      }
     },
     {
       "word": "BRAIN",
@@ -445,7 +711,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "A 5-letter word about body",
+        "level2": "A 5-letter body answer",
+        "level3": "Related to body",
+        "level4": "Something linked to body",
+        "level5": "Topic: Body"
+      }
     },
     {
       "word": "ELBOW",
@@ -457,7 +730,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 5-letter word about body",
+        "level4": "A 5-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "HEART",
@@ -469,7 +749,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 5-letter word about body",
+        "level4": "A 5-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "MUSCLE",
@@ -481,7 +768,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 6-letter word about body",
+        "level4": "A 6-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "SKELETON",
@@ -493,7 +787,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Topic: Body",
+        "level2": "A 8-letter word about body",
+        "level3": "A 8-letter body answer",
+        "level4": "Related to body",
+        "level5": "Something linked to body"
+      }
     },
     {
       "word": "STOMACH",
@@ -505,7 +806,14 @@
         "Me"
       ],
       "associations": [],
-      "clue": "Word from Body"
+      "clue": "Word from Body",
+      "clues": {
+        "level1": "Something linked to body",
+        "level2": "Topic: Body",
+        "level3": "A 7-letter word about body",
+        "level4": "A 7-letter body answer",
+        "level5": "Related to body"
+      }
     },
     {
       "word": "BIG",
@@ -517,7 +825,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 3-letter dinosaurs answer",
+        "level2": "Related to dinosaurs",
+        "level3": "Something linked to dinosaurs",
+        "level4": "Topic: Dinosaurs",
+        "level5": "A 3-letter word about dinosaurs"
+      }
     },
     {
       "word": "BONE",
@@ -529,7 +844,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Something linked to dinosaurs",
+        "level2": "Topic: Dinosaurs",
+        "level3": "A 4-letter word about dinosaurs",
+        "level4": "A 4-letter dinosaurs answer",
+        "level5": "Related to dinosaurs"
+      }
     },
     {
       "word": "REX",
@@ -541,7 +863,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 3-letter word about dinosaurs",
+        "level2": "A 3-letter dinosaurs answer",
+        "level3": "Related to dinosaurs",
+        "level4": "Something linked to dinosaurs",
+        "level5": "Topic: Dinosaurs"
+      }
     },
     {
       "word": "CLAW",
@@ -553,7 +882,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 4-letter dinosaurs answer",
+        "level2": "Related to dinosaurs",
+        "level3": "Something linked to dinosaurs",
+        "level4": "Topic: Dinosaurs",
+        "level5": "A 4-letter word about dinosaurs"
+      }
     },
     {
       "word": "FOSSIL",
@@ -565,7 +901,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 6-letter word about dinosaurs",
+        "level2": "A 6-letter dinosaurs answer",
+        "level3": "Related to dinosaurs",
+        "level4": "Something linked to dinosaurs",
+        "level5": "Topic: Dinosaurs"
+      }
     },
     {
       "word": "ROAR",
@@ -577,7 +920,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Topic: Dinosaurs",
+        "level2": "A 4-letter word about dinosaurs",
+        "level3": "A 4-letter dinosaurs answer",
+        "level4": "Related to dinosaurs",
+        "level5": "Something linked to dinosaurs"
+      }
     },
     {
       "word": "SPIKE",
@@ -589,7 +939,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 5-letter dinosaurs answer",
+        "level2": "Related to dinosaurs",
+        "level3": "Something linked to dinosaurs",
+        "level4": "Topic: Dinosaurs",
+        "level5": "A 5-letter word about dinosaurs"
+      }
     },
     {
       "word": "TEETH",
@@ -601,7 +958,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Topic: Dinosaurs",
+        "level2": "A 5-letter word about dinosaurs",
+        "level3": "A 5-letter dinosaurs answer",
+        "level4": "Related to dinosaurs",
+        "level5": "Something linked to dinosaurs"
+      }
     },
     {
       "word": "TLEAF",
@@ -613,7 +977,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 5-letter word about dinosaurs",
+        "level2": "A 5-letter dinosaurs answer",
+        "level3": "Related to dinosaurs",
+        "level4": "Something linked to dinosaurs",
+        "level5": "Topic: Dinosaurs"
+      }
     },
     {
       "word": "EXTINCT",
@@ -625,7 +996,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Topic: Dinosaurs",
+        "level2": "A 7-letter word about dinosaurs",
+        "level3": "A 7-letter dinosaurs answer",
+        "level4": "Related to dinosaurs",
+        "level5": "Something linked to dinosaurs"
+      }
     },
     {
       "word": "JURASSIC",
@@ -637,7 +1015,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Something linked to dinosaurs",
+        "level2": "Topic: Dinosaurs",
+        "level3": "A 8-letter word about dinosaurs",
+        "level4": "A 8-letter dinosaurs answer",
+        "level5": "Related to dinosaurs"
+      }
     },
     {
       "word": "RAPTOR",
@@ -649,7 +1034,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Something linked to dinosaurs",
+        "level2": "Topic: Dinosaurs",
+        "level3": "A 6-letter word about dinosaurs",
+        "level4": "A 6-letter dinosaurs answer",
+        "level5": "Related to dinosaurs"
+      }
     },
     {
       "word": "REPTILE",
@@ -661,7 +1053,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Topic: Dinosaurs",
+        "level2": "A 7-letter word about dinosaurs",
+        "level3": "A 7-letter dinosaurs answer",
+        "level4": "Related to dinosaurs",
+        "level5": "Something linked to dinosaurs"
+      }
     },
     {
       "word": "TRICERATOPS",
@@ -673,7 +1072,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "Topic: Dinosaurs",
+        "level2": "Some 11-letter word about dinosaurs",
+        "level3": "Some 11-letter dinosaurs answer",
+        "level4": "Related to dinosaurs",
+        "level5": "Something linked to dinosaurs"
+      }
     },
     {
       "word": "VOLCANO",
@@ -685,7 +1091,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Dinosaurs"
+      "clue": "Word from Dinosaurs",
+      "clues": {
+        "level1": "A 7-letter dinosaurs answer",
+        "level2": "Related to dinosaurs",
+        "level3": "Something linked to dinosaurs",
+        "level4": "Topic: Dinosaurs",
+        "level5": "A 7-letter word about dinosaurs"
+      }
     },
     {
       "word": "ELF",
@@ -697,7 +1110,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "FROG",
@@ -709,7 +1129,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magic word.",
+        "level2": "A creature from a fantasy tale.",
+        "level3": "A fantasy story word.",
+        "level4": "A legend creature.",
+        "level5": "A mystical or arcane word."
+      }
     },
     {
       "word": "HERO",
@@ -721,7 +1148,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magic word.",
+        "level2": "A creature from a fantasy tale.",
+        "level3": "A fantasy story word.",
+        "level4": "A legend creature.",
+        "level5": "A mystical or arcane word."
+      }
     },
     {
       "word": "KING",
@@ -733,7 +1167,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "WAND",
@@ -745,7 +1186,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magic word.",
+        "level2": "A creature from a fantasy tale.",
+        "level3": "A fantasy story word.",
+        "level4": "A legend creature.",
+        "level5": "A mystical or arcane word."
+      }
     },
     {
       "word": "BOOK",
@@ -757,7 +1205,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "FAIRY",
@@ -769,7 +1224,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "GIANT",
@@ -781,7 +1243,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "MAGIC",
@@ -793,7 +1262,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "QUEEN",
@@ -805,7 +1281,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magic word.",
+        "level2": "A creature from a fantasy tale.",
+        "level3": "A fantasy story word.",
+        "level4": "A legend creature.",
+        "level5": "A mystical or arcane word."
+      }
     },
     {
       "word": "WITCH",
@@ -817,7 +1300,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "CASTLE",
@@ -829,7 +1319,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magic word.",
+        "level2": "A creature from a fantasy tale.",
+        "level3": "A fantasy story word.",
+        "level4": "A legend creature.",
+        "level5": "A mystical or arcane word."
+      }
     },
     {
       "word": "DRAGON",
@@ -841,7 +1338,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "KNIGHT",
@@ -853,7 +1357,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "MERMAID",
@@ -865,7 +1376,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "PRINCESS",
@@ -877,7 +1395,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magical creature.",
+        "level2": "Something from a fairy tale.",
+        "level3": "A mythical creature.",
+        "level4": "A myth or legend item.",
+        "level5": "A creature of lore."
+      }
     },
     {
       "word": "UNICORN",
@@ -889,7 +1414,14 @@
         "Books"
       ],
       "associations": [],
-      "clue": "Word from Fantasy"
+      "clue": "Word from Fantasy",
+      "clues": {
+        "level1": "A magic word.",
+        "level2": "A creature from a fantasy tale.",
+        "level3": "A fantasy story word.",
+        "level4": "A legend creature.",
+        "level5": "A mystical or arcane word."
+      }
     },
     {
       "word": "BUN",
@@ -901,7 +1433,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "A yummy food.",
+        "level2": "A food you might have.",
+        "level3": "A food word.",
+        "level4": "A common meal item.",
+        "level5": "A gastronomy word."
+      }
     },
     {
       "word": "JAM",
@@ -913,7 +1452,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "NUT",
@@ -925,7 +1471,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "A yummy food.",
+        "level2": "A food you might have.",
+        "level3": "A food word.",
+        "level4": "A common meal item.",
+        "level5": "A gastronomy word."
+      }
     },
     {
       "word": "PIE",
@@ -937,7 +1490,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "APPLE",
@@ -949,7 +1509,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Crunchy fruit"
+      "clue": "Crunchy fruit",
+      "clues": {
+        "level3": "Crunchy fruit",
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "BREAD",
@@ -961,7 +1528,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "FRUIT",
@@ -973,7 +1547,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "LUNCH",
@@ -985,7 +1566,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "PIZZA",
@@ -997,7 +1585,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "TACO",
@@ -1009,7 +1604,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "A yummy food.",
+        "level2": "A food you might have.",
+        "level3": "A food word.",
+        "level4": "A common meal item.",
+        "level5": "A gastronomy word."
+      }
     },
     {
       "word": "BAKERY",
@@ -1021,7 +1623,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "DESSERT",
@@ -1033,7 +1642,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "OMELET",
@@ -1045,7 +1661,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "Something you can eat.",
+        "level2": "A kitchen item to eat.",
+        "level3": "A type of food.",
+        "level4": "A food term.",
+        "level5": "A culinary word."
+      }
     },
     {
       "word": "RESTAURANT",
@@ -1057,7 +1680,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "A yummy food.",
+        "level2": "A food you might have.",
+        "level3": "A food word.",
+        "level4": "A common meal item.",
+        "level5": "A gastronomy word."
+      }
     },
     {
       "word": "SPAGHETTI",
@@ -1069,7 +1699,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "A yummy food.",
+        "level2": "A food you might have.",
+        "level3": "A food word.",
+        "level4": "A common meal item.",
+        "level5": "A gastronomy word."
+      }
     },
     {
       "word": "VEGETABLE",
@@ -1081,7 +1718,14 @@
         "Health"
       ],
       "associations": [],
-      "clue": "Word from Food"
+      "clue": "Word from Food",
+      "clues": {
+        "level1": "A yummy food.",
+        "level2": "A food you might have.",
+        "level3": "A food word.",
+        "level4": "A common meal item.",
+        "level5": "A gastronomy word."
+      }
     },
     {
       "word": "BLUEBERRY",
@@ -1089,7 +1733,14 @@
       "tags": [
         "Fruits"
       ],
-      "clue": "Tiny blue fruit"
+      "clue": "Tiny blue fruit",
+      "clues": {
+        "level3": "Tiny blue fruit",
+        "level1": "A 9-letter word about fruits",
+        "level2": "A 9-letter fruits answer",
+        "level4": "Something linked to fruits",
+        "level5": "Topic: Fruits"
+      }
     },
     {
       "word": "COCONUT",
@@ -1098,7 +1749,14 @@
         "Fruits"
       ],
       "clue": "Hairy tropical nut",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Hairy tropical nut",
+        "level1": "A 7-letter word about fruits",
+        "level2": "A 7-letter fruits answer",
+        "level4": "Something linked to fruits",
+        "level5": "Topic: Fruits"
+      }
     },
     {
       "word": "PINEAPPLE",
@@ -1107,7 +1765,14 @@
         "Fruits"
       ],
       "clue": "Spiky tropical fruit",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Spiky tropical fruit",
+        "level1": "A 9-letter fruits answer",
+        "level2": "Related to fruits",
+        "level4": "Topic: Fruits",
+        "level5": "A 9-letter word about fruits"
+      }
     },
     {
       "word": "STRAWBERRY",
@@ -1115,7 +1780,14 @@
       "tags": [
         "Fruits"
       ],
-      "clue": "Red juicy berry"
+      "clue": "Red juicy berry",
+      "clues": {
+        "level3": "Red juicy berry",
+        "level1": "A 10-letter word about fruits",
+        "level2": "A 10-letter fruits answer",
+        "level4": "Something linked to fruits",
+        "level5": "Topic: Fruits"
+      }
     },
     {
       "word": "TOMATO",
@@ -1123,7 +1795,14 @@
       "tags": [
         "Fruits"
       ],
-      "clue": "Word from Fruits"
+      "clue": "Word from Fruits",
+      "clues": {
+        "level1": "Topic: Fruits",
+        "level2": "A 6-letter word about fruits",
+        "level3": "A 6-letter fruits answer",
+        "level4": "Related to fruits",
+        "level5": "Something linked to fruits"
+      }
     },
     {
       "word": "WATERMELON",
@@ -1132,7 +1811,14 @@
         "Fruits"
       ],
       "clue": "Summer melon",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Summer melon",
+        "level1": "Related to fruits",
+        "level2": "Something linked to fruits",
+        "level4": "A 10-letter word about fruits",
+        "level5": "A 10-letter fruits answer"
+      }
     },
     {
       "word": "CARDS",
@@ -1141,7 +1827,14 @@
         "Games"
       ],
       "clue": "Playing deck",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Playing deck",
+        "level1": "Some 5-letter games answer",
+        "level2": "Related to games",
+        "level4": "Topic: Games",
+        "level5": "Some 5-letter word about games"
+      }
     },
     {
       "word": "DICE",
@@ -1150,7 +1843,14 @@
         "Games"
       ],
       "clue": "Number cubes",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Number cubes",
+        "level1": "Something linked to games",
+        "level2": "Topic: Games",
+        "level4": "A 4-letter games answer",
+        "level5": "Related to games"
+      }
     },
     {
       "word": "PUZZLE",
@@ -1158,7 +1858,14 @@
       "tags": [
         "Games"
       ],
-      "clue": "Brain teaser"
+      "clue": "Brain teaser",
+      "clues": {
+        "level3": "Brain teaser",
+        "level1": "A 6-letter games answer",
+        "level2": "Related to games",
+        "level4": "Topic: Games",
+        "level5": "A 6-letter word about games"
+      }
     },
     {
       "word": "CHESS",
@@ -1166,7 +1873,14 @@
       "tags": [
         "Games"
       ],
-      "clue": "Strategic board game"
+      "clue": "Strategic board game",
+      "clues": {
+        "level3": "Strategic board game",
+        "level1": "A 5-letter word about games",
+        "level2": "A 5-letter games answer",
+        "level4": "Something linked to games",
+        "level5": "Topic: Games"
+      }
     },
     {
       "word": "CRAB",
@@ -1178,7 +1892,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Sidewalking crustacean"
+      "clue": "Sidewalking crustacean",
+      "clues": {
+        "level3": "Sidewalking crustacean",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "FISH",
@@ -1190,7 +1911,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Finny swimmer"
+      "clue": "Finny swimmer",
+      "clues": {
+        "level3": "Finny swimmer",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "SAND",
@@ -1202,7 +1930,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Beach grains"
+      "clue": "Beach grains",
+      "clues": {
+        "level3": "Beach grains",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "SEAL",
@@ -1214,7 +1949,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Barking swimmer"
+      "clue": "Barking swimmer",
+      "clues": {
+        "level3": "Barking swimmer",
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "WET",
@@ -1226,7 +1968,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Soaked condition"
+      "clue": "Soaked condition",
+      "clues": {
+        "level3": "Soaked condition",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "BEACH",
@@ -1238,7 +1987,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Sandy shore"
+      "clue": "Sandy shore",
+      "clues": {
+        "level3": "Sandy shore",
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "CORAL",
@@ -1250,7 +2006,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Undersea reef"
+      "clue": "Undersea reef",
+      "clues": {
+        "level3": "Undersea reef",
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "LIGHTHOUSE",
@@ -1259,7 +2022,14 @@
         "Ocean"
       ],
       "clue": "Guiding beacon",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Guiding beacon",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "SCUBA",
@@ -1271,7 +2041,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Underwater gear"
+      "clue": "Underwater gear",
+      "clues": {
+        "level3": "Underwater gear",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "SHARK",
@@ -1283,7 +2060,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Jagged-tooth predator"
+      "clue": "Jagged-tooth predator",
+      "clues": {
+        "level3": "Jagged-tooth predator",
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "SHELL",
@@ -1295,7 +2079,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Seashell home"
+      "clue": "Seashell home",
+      "clues": {
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level3": "An ocean-related word.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "WHALE",
@@ -1307,7 +2098,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Ocean giant"
+      "clue": "Ocean giant",
+      "clues": {
+        "level3": "Ocean giant",
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "ATLANTIC",
@@ -1319,7 +2117,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Word from Ocean"
+      "clue": "Word from Ocean",
+      "clues": {
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level3": "An ocean-related word.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "DOLPHIN",
@@ -1331,7 +2136,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Intelligent cetacean"
+      "clue": "Intelligent cetacean",
+      "clues": {
+        "level3": "Intelligent cetacean",
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "LOBSTER",
@@ -1343,7 +2155,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Word from Ocean"
+      "clue": "Word from Ocean",
+      "clues": {
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level3": "A marine word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "OCTOPUS",
@@ -1355,7 +2174,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Word from Ocean"
+      "clue": "Word from Ocean",
+      "clues": {
+        "level1": "Some sea creature or thing.",
+        "level2": "Some sea or ocean word.",
+        "level3": "Some marine word.",
+        "level4": "Some marine term.",
+        "level5": "some ocean term."
+      }
     },
     {
       "word": "SEAHORSE",
@@ -1367,7 +2193,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Word from Ocean"
+      "clue": "Word from Ocean",
+      "clues": {
+        "level1": "Something from the sea.",
+        "level2": "A thing found in the ocean.",
+        "level3": "An ocean-related word.",
+        "level4": "A sea-related term.",
+        "level5": "A nautical word."
+      }
     },
     {
       "word": "TSUNAMI",
@@ -1379,7 +2212,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Word from Ocean"
+      "clue": "Word from Ocean",
+      "clues": {
+        "level1": "A sea creature or thing.",
+        "level2": "A sea or ocean word.",
+        "level3": "A marine word.",
+        "level4": "A marine term.",
+        "level5": "An ocean term."
+      }
     },
     {
       "word": "DESK",
@@ -1388,7 +2228,14 @@
         "School"
       ],
       "clue": "Work surface",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Work surface",
+        "level1": "A 4-letter school answer",
+        "level2": "Related to school",
+        "level4": "Topic: School",
+        "level5": "A 4-letter word about school"
+      }
     },
     {
       "word": "GYM",
@@ -1396,7 +2243,14 @@
       "tags": [
         "School"
       ],
-      "clue": "Exercise room"
+      "clue": "Exercise room",
+      "clues": {
+        "level3": "Exercise room",
+        "level1": "Something linked to school",
+        "level2": "Topic: School",
+        "level4": "A 3-letter school answer",
+        "level5": "Related to school"
+      }
     },
     {
       "word": "ART",
@@ -1404,7 +2258,14 @@
       "tags": [
         "School"
       ],
-      "clue": "Creative expression"
+      "clue": "Creative expression",
+      "clues": {
+        "level3": "Creative expression",
+        "level1": "Related to school",
+        "level2": "Something linked to school",
+        "level4": "A 3-letter word about school",
+        "level5": "A 3-letter school answer"
+      }
     },
     {
       "word": "CAFETERIA",
@@ -1412,7 +2273,14 @@
       "tags": [
         "School"
       ],
-      "clue": "Lunch room"
+      "clue": "Lunch room",
+      "clues": {
+        "level3": "Lunch room",
+        "level1": "A 9-letter word about school",
+        "level2": "A 9-letter school answer",
+        "level4": "Something linked to school",
+        "level5": "Topic: School"
+      }
     },
     {
       "word": "COMPUTER",
@@ -1421,7 +2289,14 @@
         "School"
       ],
       "clue": "Digital machine",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Digital machine",
+        "level1": "Topic: School",
+        "level2": "A 8-letter word about school",
+        "level4": "Related to school",
+        "level5": "Something linked to school"
+      }
     },
     {
       "word": "MUSIC",
@@ -1429,7 +2304,14 @@
       "tags": [
         "School"
       ],
-      "clue": "Melodious sounds"
+      "clue": "Melodious sounds",
+      "clues": {
+        "level3": "Melodious sounds",
+        "level1": "A 5-letter school answer",
+        "level2": "Related to school",
+        "level4": "Topic: School",
+        "level5": "A 5-letter word about school"
+      }
     },
     {
       "word": "PRINCIPAL",
@@ -1437,7 +2319,14 @@
       "tags": [
         "School"
       ],
-      "clue": "School leader"
+      "clue": "School leader",
+      "clues": {
+        "level3": "School leader",
+        "level1": "A 9-letter word about school",
+        "level2": "A 9-letter school answer",
+        "level4": "Something linked to school",
+        "level5": "Topic: School"
+      }
     },
     {
       "word": "MOON",
@@ -1449,7 +2338,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Night sky orb"
+      "clue": "Night sky orb",
+      "clues": {
+        "level3": "Night sky orb",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "SKY",
@@ -1461,7 +2357,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Blue overhead"
+      "clue": "Blue overhead",
+      "clues": {
+        "level3": "Blue overhead",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "STAR",
@@ -1473,7 +2376,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Twinkling light"
+      "clue": "Twinkling light",
+      "clues": {
+        "level3": "Twinkling light",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "SUN",
@@ -1487,7 +2397,14 @@
         "Nature"
       ],
       "associations": [],
-      "clue": "Daytime star"
+      "clue": "Daytime star",
+      "clues": {
+        "level3": "Daytime star",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "UFO",
@@ -1499,7 +2416,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Flying saucer"
+      "clue": "Flying saucer",
+      "clues": {
+        "level3": "Flying saucer",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "ALIEN",
@@ -1511,7 +2435,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Space visitor"
+      "clue": "Space visitor",
+      "clues": {
+        "level3": "Space visitor",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "COMET",
@@ -1523,7 +2454,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Tail of ice"
+      "clue": "Tail of ice",
+      "clues": {
+        "level3": "Tail of ice",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "EARTH",
@@ -1535,7 +2473,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Our home planet"
+      "clue": "Our home planet",
+      "clues": {
+        "level3": "Our home planet",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "MARS",
@@ -1547,7 +2492,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Red planet"
+      "clue": "Red planet",
+      "clues": {
+        "level3": "Red planet",
+        "level1": "Some starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "Some solar system term.",
+        "level5": "Some cosmic term."
+      }
     },
     {
       "word": "NASA",
@@ -1559,7 +2511,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Space agency"
+      "clue": "Space agency",
+      "clues": {
+        "level3": "Space agency",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "PLANET",
@@ -1568,7 +2527,14 @@
         "Space"
       ],
       "clue": "Orbiting world",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Orbiting world",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "ROCKET",
@@ -1580,7 +2546,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Space launcher"
+      "clue": "Space launcher",
+      "clues": {
+        "level3": "Space launcher",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "ASTRONAUT",
@@ -1589,7 +2562,14 @@
         "Space"
       ],
       "clue": "Space explorer",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Space explorer",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "BLACK HOLE",
@@ -1598,7 +2578,14 @@
         "Space"
       ],
       "clue": "Cosmic void",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Cosmic void",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "GALAXY",
@@ -1610,7 +2597,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Star collection"
+      "clue": "Star collection",
+      "clues": {
+        "level3": "Star collection",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "GRAVITY",
@@ -1622,7 +2616,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Pulling force"
+      "clue": "Pulling force",
+      "clues": {
+        "level3": "Pulling force",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "JUPITER",
@@ -1634,7 +2635,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Giant planet"
+      "clue": "Giant planet",
+      "clues": {
+        "level3": "Giant planet",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "METEOR",
@@ -1646,7 +2654,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Shooting star"
+      "clue": "Shooting star",
+      "clues": {
+        "level3": "Shooting star",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "NEBULA",
@@ -1658,7 +2673,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Cosmic cloud"
+      "clue": "Cosmic cloud",
+      "clues": {
+        "level3": "Cosmic cloud",
+        "level1": "A starry-sky thing.",
+        "level2": "Something seen in the night sky.",
+        "level4": "A solar system term.",
+        "level5": "A cosmic term."
+      }
     },
     {
       "word": "ORBIT",
@@ -1670,7 +2692,14 @@
         "Travel"
       ],
       "associations": [],
-      "clue": "Planetary path"
+      "clue": "Planetary path",
+      "clues": {
+        "level3": "Planetary path",
+        "level1": "Something in space.",
+        "level2": "A night-sky object.",
+        "level4": "An astronomy word.",
+        "level5": "A celestial object."
+      }
     },
     {
       "word": "BAT",
@@ -1682,7 +2711,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "A 3-letter sports answer",
+        "level2": "Related to sports",
+        "level3": "Something linked to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 3-letter word about sports"
+      }
     },
     {
       "word": "FUN",
@@ -1694,7 +2730,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Topic: Sports",
+        "level2": "A 3-letter word about sports",
+        "level3": "A 3-letter sports answer",
+        "level4": "Related to sports",
+        "level5": "Something linked to sports"
+      }
     },
     {
       "word": "GYM",
@@ -1706,7 +2749,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Exercise room"
+      "clue": "Exercise room",
+      "clues": {
+        "level3": "Exercise room",
+        "level1": "Something linked to sports",
+        "level2": "Topic: Sports",
+        "level4": "A 3-letter sports answer",
+        "level5": "Related to sports"
+      }
     },
     {
       "word": "RUN",
@@ -1718,7 +2768,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "A 3-letter sports answer",
+        "level2": "Related to sports",
+        "level3": "Something linked to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 3-letter word about sports"
+      }
     },
     {
       "word": "WIN",
@@ -1730,7 +2787,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Topic: Sports",
+        "level2": "A 3-letter word about sports",
+        "level3": "A 3-letter sports answer",
+        "level4": "Related to sports",
+        "level5": "Something linked to sports"
+      }
     },
     {
       "word": "BALL",
@@ -1742,7 +2806,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Topic: Sports",
+        "level2": "A 4-letter word about sports",
+        "level3": "A 4-letter sports answer",
+        "level4": "Related to sports",
+        "level5": "Something linked to sports"
+      }
     },
     {
       "word": "FOOTBALL",
@@ -1750,7 +2821,14 @@
       "tags": [
         "Sports"
       ],
-      "clue": "Gridiron game"
+      "clue": "Gridiron game",
+      "clues": {
+        "level3": "Gridiron game",
+        "level1": "A 8-letter sports answer",
+        "level2": "Related to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 8-letter word about sports"
+      }
     },
     {
       "word": "GOAL",
@@ -1762,7 +2840,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Related to sports",
+        "level2": "Something linked to sports",
+        "level3": "Topic: Sports",
+        "level4": "A 4-letter word about sports",
+        "level5": "A 4-letter sports answer"
+      }
     },
     {
       "word": "KICK",
@@ -1774,7 +2859,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "A 4-letter sports answer",
+        "level2": "Related to sports",
+        "level3": "Something linked to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 4-letter word about sports"
+      }
     },
     {
       "word": "RACE",
@@ -1786,7 +2878,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Topic: Sports",
+        "level2": "A 4-letter word about sports",
+        "level3": "A 4-letter sports answer",
+        "level4": "Related to sports",
+        "level5": "Something linked to sports"
+      }
     },
     {
       "word": "SWIM",
@@ -1798,7 +2897,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "A 4-letter sports answer",
+        "level2": "Related to sports",
+        "level3": "Something linked to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 4-letter word about sports"
+      }
     },
     {
       "word": "TEAM",
@@ -1810,7 +2916,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "A 4-letter sports answer",
+        "level2": "Related to sports",
+        "level3": "Something linked to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 4-letter word about sports"
+      }
     },
     {
       "word": "VOLLEYBALL",
@@ -1818,7 +2931,14 @@
       "tags": [
         "Sports"
       ],
-      "clue": "Beach ball game"
+      "clue": "Beach ball game",
+      "clues": {
+        "level3": "Beach ball game",
+        "level1": "Topic: Sports",
+        "level2": "A 10-letter word about sports",
+        "level4": "Related to sports",
+        "level5": "Something linked to sports"
+      }
     },
     {
       "word": "BADMINTON",
@@ -1827,7 +2947,14 @@
         "Sports"
       ],
       "clue": "Shuttlecock game",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Shuttlecock game",
+        "level1": "Topic: Sports",
+        "level2": "A 9-letter word about sports",
+        "level4": "Related to sports",
+        "level5": "Something linked to sports"
+      }
     },
     {
       "word": "BASEBALL",
@@ -1839,7 +2966,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Diamond sport"
+      "clue": "Diamond sport",
+      "clues": {
+        "level3": "Diamond sport",
+        "level1": "Related to sports",
+        "level2": "Something linked to sports",
+        "level4": "A 8-letter word about sports",
+        "level5": "A 8-letter sports answer"
+      }
     },
     {
       "word": "HELMET",
@@ -1851,7 +2985,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Something linked to sports",
+        "level2": "Topic: Sports",
+        "level3": "A 6-letter word about sports",
+        "level4": "A 6-letter sports answer",
+        "level5": "Related to sports"
+      }
     },
     {
       "word": "KARATE",
@@ -1860,7 +3001,14 @@
         "Sports"
       ],
       "clue": "Martial art",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Martial art",
+        "level1": "A 6-letter sports answer",
+        "level2": "Related to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 6-letter word about sports"
+      }
     },
     {
       "word": "SOCCER",
@@ -1872,7 +3020,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Football game"
+      "clue": "Football game",
+      "clues": {
+        "level3": "Football game",
+        "level1": "Something linked to sports",
+        "level2": "Topic: Sports",
+        "level4": "A 6-letter sports answer",
+        "level5": "Related to sports"
+      }
     },
     {
       "word": "STADIUM",
@@ -1884,7 +3039,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "A 7-letter sports answer",
+        "level2": "Related to sports",
+        "level3": "Something linked to sports",
+        "level4": "Topic: Sports",
+        "level5": "A 7-letter word about sports"
+      }
     },
     {
       "word": "TENNIS",
@@ -1896,7 +3058,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Racket sport"
+      "clue": "Racket sport",
+      "clues": {
+        "level3": "Racket sport",
+        "level1": "Some 6-letter sports answer",
+        "level2": "Related to sports",
+        "level4": "Topic: Sports",
+        "level5": "Some 6-letter word about sports"
+      }
     },
     {
       "word": "TROPHY",
@@ -1908,7 +3077,14 @@
         "Exercise"
       ],
       "associations": [],
-      "clue": "Word from Sports"
+      "clue": "Word from Sports",
+      "clues": {
+        "level1": "Related to sports",
+        "level2": "Something linked to sports",
+        "level3": "Topic: Sports",
+        "level4": "A 6-letter word about sports",
+        "level5": "A 6-letter sports answer"
+      }
     },
     {
       "word": "BICYCLE",
@@ -1917,7 +3093,14 @@
         "Transport"
       ],
       "clue": "Two-pedal ride",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Two-pedal ride",
+        "level1": "Something linked to transport",
+        "level2": "Topic: Transport",
+        "level4": "A 7-letter transport answer",
+        "level5": "Related to transport"
+      }
     },
     {
       "word": "SHIP",
@@ -1926,7 +3109,14 @@
         "Transport"
       ],
       "clue": "Ocean vessel",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Ocean vessel",
+        "level1": "Topic: Transport",
+        "level2": "A 4-letter word about transport",
+        "level4": "Related to transport",
+        "level5": "Something linked to transport"
+      }
     },
     {
       "word": "HELICOPTER",
@@ -1934,7 +3124,14 @@
       "tags": [
         "Transport"
       ],
-      "clue": "Chopper in the sky"
+      "clue": "Chopper in the sky",
+      "clues": {
+        "level3": "Chopper in the sky",
+        "level1": "Related to transport",
+        "level2": "Something linked to transport",
+        "level4": "A 10-letter word about transport",
+        "level5": "A 10-letter transport answer"
+      }
     },
     {
       "word": "MOTORCYCLE",
@@ -1942,7 +3139,14 @@
       "tags": [
         "Transport"
       ],
-      "clue": "Two-wheeled speed machine"
+      "clue": "Two-wheeled speed machine",
+      "clues": {
+        "level3": "Two-wheeled speed machine",
+        "level1": "A 10-letter word about transport",
+        "level2": "A 10-letter transport answer",
+        "level4": "Something linked to transport",
+        "level5": "Topic: Transport"
+      }
     },
     {
       "word": "CARROT",
@@ -1950,7 +3154,14 @@
       "tags": [
         "Vegetables"
       ],
-      "clue": "Orange root veggie"
+      "clue": "Orange root veggie",
+      "clues": {
+        "level3": "Orange root veggie",
+        "level1": "A 6-letter word about vegetables",
+        "level2": "A 6-letter vegetables answer",
+        "level4": "Something linked to vegetables",
+        "level5": "Topic: Vegetables"
+      }
     },
     {
       "word": "POTATO",
@@ -1958,7 +3169,14 @@
       "tags": [
         "Vegetables"
       ],
-      "clue": "Starchy tuber"
+      "clue": "Starchy tuber",
+      "clues": {
+        "level3": "Starchy tuber",
+        "level1": "Related to vegetables",
+        "level2": "Something linked to vegetables",
+        "level4": "A 6-letter word about vegetables",
+        "level5": "A 6-letter vegetables answer"
+      }
     },
     {
       "word": "BROCCOLI",
@@ -1966,7 +3184,14 @@
       "tags": [
         "Vegetables"
       ],
-      "clue": "Green tree veggie"
+      "clue": "Green tree veggie",
+      "clues": {
+        "level3": "Green tree veggie",
+        "level1": "A 8-letter word about vegetables",
+        "level2": "A 8-letter vegetables answer",
+        "level4": "Something linked to vegetables",
+        "level5": "Topic: Vegetables"
+      }
     },
     {
       "word": "LETTUCE",
@@ -1975,7 +3200,14 @@
         "Vegetables"
       ],
       "clue": "Leafy green",
-      "associations": []
+      "associations": [],
+      "clues": {
+        "level3": "Leafy green",
+        "level1": "A 7-letter word about vegetables",
+        "level2": "A 7-letter vegetables answer",
+        "level4": "Something linked to vegetables",
+        "level5": "Topic: Vegetables"
+      }
     },
     {
       "word": "CONE",
@@ -1987,7 +3219,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "DIG",
@@ -2003,7 +3242,14 @@
         "Science"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "HAT",
@@ -2015,7 +3261,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "ROAD",
@@ -2027,7 +3280,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "TOOL",
@@ -2039,7 +3299,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "BRICK",
@@ -2051,7 +3318,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "BUILD",
@@ -2063,7 +3337,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "CRANE",
@@ -2075,7 +3356,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "DRILL",
@@ -2087,7 +3375,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "TRUCK",
@@ -2099,7 +3394,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Hauling vehicle"
+      "clue": "Hauling vehicle",
+      "clues": {
+        "level3": "Hauling vehicle",
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "WORK",
@@ -2111,7 +3413,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "ASPHALT",
@@ -2123,7 +3432,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "BULLDOZER",
@@ -2135,7 +3451,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "CEMENT",
@@ -2147,7 +3470,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "HAMMER",
@@ -2159,7 +3489,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "SAFETY",
@@ -2171,7 +3508,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "Something you can ride in.",
+        "level2": "A vehicle you might see.",
+        "level3": "A type of vehicle.",
+        "level4": "A travel term.",
+        "level5": "A transit word."
+      }
     },
     {
       "word": "WRENCH",
@@ -2183,7 +3527,14 @@
         "Trucks"
       ],
       "associations": [],
-      "clue": "Word from Vehicles"
+      "clue": "Word from Vehicles",
+      "clues": {
+        "level1": "A ride you can take.",
+        "level2": "A way to travel.",
+        "level3": "A transport word.",
+        "level4": "A transport term.",
+        "level5": "A mobility word."
+      }
     },
     {
       "word": "COLD",
@@ -2195,7 +3546,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "A kind of weather.",
+        "level2": "Sky condition.",
+        "level3": "A weather condition.",
+        "level4": "A weather description.",
+        "level5": "A meteorology term."
+      }
     },
     {
       "word": "HOT",
@@ -2207,7 +3565,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "RAIN",
@@ -2219,7 +3584,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "A kind of weather.",
+        "level2": "Sky condition.",
+        "level3": "A weather condition.",
+        "level4": "A weather description.",
+        "level5": "A meteorology term."
+      }
     },
     {
       "word": "SNOW",
@@ -2231,7 +3603,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "CLOUD",
@@ -2243,7 +3622,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "FALL",
@@ -2255,7 +3641,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "HEAT",
@@ -2267,7 +3660,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "A kind of weather.",
+        "level2": "Sky condition.",
+        "level3": "A weather condition.",
+        "level4": "A weather description.",
+        "level5": "A meteorology term."
+      }
     },
     {
       "word": "SPRING",
@@ -2279,7 +3679,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "STORM",
@@ -2291,7 +3698,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "WIND",
@@ -2303,7 +3717,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "A kind of weather.",
+        "level2": "Sky condition.",
+        "level3": "A weather condition.",
+        "level4": "A weather description.",
+        "level5": "A meteorology term."
+      }
     },
     {
       "word": "CLIMATE",
@@ -2315,7 +3736,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "LIGHTNING",
@@ -2327,7 +3755,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "A kind of weather.",
+        "level2": "Sky condition.",
+        "level3": "A weather condition.",
+        "level4": "A weather description.",
+        "level5": "A meteorology term."
+      }
     },
     {
       "word": "SUMMER",
@@ -2339,7 +3774,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "THUNDER",
@@ -2351,7 +3793,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "A kind of weather.",
+        "level2": "Sky condition.",
+        "level3": "A weather condition.",
+        "level4": "A weather description.",
+        "level5": "A meteorology term."
+      }
     },
     {
       "word": "TORNADO",
@@ -2363,7 +3812,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     },
     {
       "word": "WINTER",
@@ -2375,7 +3831,14 @@
         "Sky"
       ],
       "associations": [],
-      "clue": "Word from Weather"
+      "clue": "Word from Weather",
+      "clues": {
+        "level1": "The sky looks this way.",
+        "level2": "Weather you can see outside.",
+        "level3": "A sky condition word.",
+        "level4": "A forecast detail.",
+        "level5": "A sky term."
+      }
     }
   ]
 }
