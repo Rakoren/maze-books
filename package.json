@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node index.js",
     "web": "node web-server.js",
+    "web:3001": "powershell -NoProfile -Command \"$env:PORT=3001; node web-server.js\"",
     "publish": "powershell -NoProfile -Command \"New-Item -ItemType Directory -Force docs | Out-Null; Copy-Item -Path web\\* -Destination docs -Recurse -Force; git add -A; git diff --cached --quiet; if ($LASTEXITCODE -ne 0) { git commit -m 'Update site' }; git push\""
   },
   "keywords": ["wordsearch","puzzle","cli"],

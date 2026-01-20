@@ -418,22 +418,49 @@
 
   async function loadThemes() {
     try {
-      const localUrl = `word-themes.json?v=${Date.now()}`;
-      let response = await fetch(localUrl, { cache: 'no-store' });
-      if (!response.ok) {
-        const fallbackUrl = 'https://raw.githubusercontent.com/Rakoren/maze-books/master/docs/word-themes.json';
-        response = await fetch(fallbackUrl, { cache: 'no-store' });
+      const stamp = Date.now();
+      const origin = window.location.origin;
+      const urls = [
+        `word-themes.json?v=${stamp}`,
+        `/word-themes.json?v=${stamp}`,
+        `${origin}/word-themes.json?v=${stamp}`,
+        `themes.json?v=${stamp}`,
+        `/themes.json?v=${stamp}`,
+        `${origin}/themes.json?v=${stamp}`,
+        'https://raw.githubusercontent.com/Rakoren/maze-books/master/docs/word-themes.json'
+      ];
+
+      let data = null;
+      let lastError = null;
+      for (const url of urls) {
+        try {
+          const wordDatabase = await fetchWordDatabase(url);
+          if (!wordDatabase || !wordDatabase.length) {
+            lastError = new Error(`Theme load failed for ${url}`);
+            continue;
+          }
+          data = { wordDatabase };
+          break;
+        } catch (error) {
+          lastError = error;
+        }
       }
-      if (!response.ok) {
-        throw new Error(`Theme load failed (${response.status})`);
+      if (!data || !data.wordDatabase) {
+        throw lastError || new Error('Theme load failed');
       }
-      const data = await response.json();
+      try {
+        localStorage.setItem('wordDatabaseCache', JSON.stringify(data.wordDatabase));
+      } catch (storageError) {
+        console.warn('Theme cache skipped:', storageError);
+      }
       wordDatabase = (data.wordDatabase || []).map(item => ensureCluesForItem(item));
       const themeSet = new Set();
 
       wordDatabase.forEach(entry => {
-        if (entry.tags) {
+        if (Array.isArray(entry.tags)) {
           entry.tags.forEach(tag => themeSet.add(tag));
+        } else if (typeof entry.tags === 'string') {
+          entry.tags.split(/[,;]+/).map(tag => tag.trim()).filter(Boolean).forEach(tag => themeSet.add(tag));
         }
       });
 
@@ -448,11 +475,51 @@
       });
       if (themeSet.size === 0) {
         updateStatus('No themes available. Use custom words or refresh the page.', 'error');
+      } else {
+        updateStatus(`Loaded ${themeSet.size} themes.`, 'success');
       }
     } catch (error) {
       console.error('Failed to load themes:', error);
-      updateStatus('Failed to load themes. Please refresh or check the site URL.', 'error');
+      const cached = localStorage.getItem('wordDatabaseCache');
+      if (cached) {
+        try {
+          const parsed = JSON.parse(cached);
+          wordDatabase = (parsed || []).map(item => ensureCluesForItem(item));
+          const themeSet = new Set();
+          wordDatabase.forEach(entry => {
+            if (entry.tags) {
+              entry.tags.forEach(tag => themeSet.add(tag));
+            }
+          });
+          const themeSelect = document.getElementById('themeSelect');
+          if (themeSelect) {
+            themeSelect.innerHTML = '<option value="" selected>(none)</option>';
+            Array.from(themeSet).sort().forEach(theme => {
+              const option = document.createElement('option');
+              option.value = theme;
+              option.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+              themeSelect.appendChild(option);
+            });
+          }
+          updateStatus('Loaded cached themes. If empty, restart the server.', 'info');
+          return;
+        } catch (cacheError) {
+          console.error('Failed to parse cached themes:', cacheError);
+        }
+      }
+      const message = error && error.message ? error.message : 'Failed to load themes';
+      updateStatus(`${message}. Use custom words or restart the server.`, 'error');
     }
+  }
+
+  async function fetchWordDatabase(url) {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) return null;
+    const text = await response.text();
+    if (!text) return null;
+    const normalized = text.replace(/^\uFEFF/, '');
+    const data = JSON.parse(normalized);
+    return Array.isArray(data.wordDatabase) ? data.wordDatabase : null;
   }
 
   function generateWordList(theme, level, maxWords = 20) {
@@ -678,6 +745,15 @@
 
   function countWords(text) {
     return String(text || '').trim().split(/\s+/).filter(Boolean).length;
+  }
+
+  function getDeterministicIndex(key, mod) {
+    let hash = 0;
+    const text = String(key || '');
+    for (let i = 0; i < text.length; i++) {
+      hash = (hash * 31 + text.charCodeAt(i)) % mod;
+    }
+    return hash;
   }
 
   function getClueTemplates(tag, length, levelKey, word) {
